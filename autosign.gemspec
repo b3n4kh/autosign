@@ -31,5 +31,6 @@ spec = Gem::Specification.new do |s|
   s.add_runtime_dependency('logging', '~> 2')
   s.add_runtime_dependency('json', '>=1')
   s.add_runtime_dependency('deep_merge', '~> 1')
+  s.add_runtime_dependency('rbvmomi', '>= 2')
   s.add_runtime_dependency('require_all', '~> 1')
 end
